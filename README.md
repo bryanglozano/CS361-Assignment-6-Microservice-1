@@ -41,14 +41,10 @@ How to REQUEST Data:
   "auth_token": "VALID",
   
   "payload": {
-  
     "date": "2026-02-25",
-    
     "exercise_name": "Run",
-    
     "duration_minutes": 30
-    
-  }
+    }
   
 }
 
@@ -61,12 +57,9 @@ How to REQUEST Data:
   "auth_token": "VALID",
   
   "payload": {
-  
     "meal_name": "Lunch",
-    
     "calories": 600
-    
-  }
+    }
   
 }
 
