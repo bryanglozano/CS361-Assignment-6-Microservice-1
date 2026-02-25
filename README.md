@@ -26,29 +26,48 @@ How to REQUEST Data:
 
 {
   "service": "fitness" | "diet",
+  
   "auth_token": "VALID",
+  
   "payload": { ... }
 }
 
 *Example*
+
 {
+
   "service": "fitness",
+  
   "auth_token": "VALID",
+  
   "payload": {
+  
     "date": "2026-02-25",
+    
     "exercise_name": "Run",
+    
     "duration_minutes": 30
+    
   }
+  
 }
 
 *Example request (diet)*
+
 {
+
   "service": "diet",
+  
   "auth_token": "VALID",
+  
   "payload": {
+  
     "meal_name": "Lunch",
+    
     "calories": 600
+    
   }
+  
 }
 
 How to RECIEVE Data:
