@@ -22,6 +22,7 @@ How to REQUEST Data:
 2. write json object
 3. save & close the file
 *Request format*
+
 {
   "service": "fitness" | "diet",
   "auth_token": "VALID",
