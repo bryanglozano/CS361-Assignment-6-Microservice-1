@@ -21,6 +21,7 @@ How to REQUEST Data:
 1. Open pipe/validate_request.txt
 2. write json object
 3. save & close the file
+
 *Request format*
 
 {
@@ -51,7 +52,9 @@ How to REQUEST Data:
 }
 
 How to RECIEVE Data:
+
 The microservice should write a json response to:
+
   pipe/validate_response.txt
 
 *Respones Format*
@@ -67,6 +70,7 @@ The microservice should write a json response to:
 }
 
 **How to run**
+
 1. Clone the repository
 2. Make sure you're in the correct folder/directory. Do not be in /src, /tests, or /pipe
 3. Open a command prompt/terminal and enter these command(s):
@@ -85,6 +89,7 @@ The microservice should write a json response to:
    Unauthorized -> {'valid': False, 'errors': ['unauthorized']}
 
 ***IMPORTANT NOTE FOR WINDOWS***
+
 Use \ in paths
 Make sure you're in the repo root folder before running
 if python or python3 does not work, try:
