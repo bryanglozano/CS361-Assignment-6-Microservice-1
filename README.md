@@ -107,3 +107,7 @@ Make sure you're in the repo root folder before running
 if python or python3 does not work, try:
   - py src\microservice.py
   - py tests\test_client.py
+
+  UML sequence diagram
+    [Sequence diagram.pdf](https://github.com/user-attachments/files/25567821/Sequence.diagram.pdf)
+
